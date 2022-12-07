@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-23T13:24:41Z" name="Default suite" finished-at="2022-11-23T13:24:41Z" duration-ms="82">
+    <groups>
+    </groups>
+    <test started-at="2022-11-23T13:24:41Z" name="Default test" finished-at="2022-11-23T13:24:41Z" duration-ms="82">
+      <class name="com.learnTestNG.Amazon">
+        <test-method signature="signUp()[pri:1, instance:com.learnTestNG.Amazon@1fb19a0]" started-at="2022-11-23T13:24:41Z" name="signUp" finished-at="2022-11-23T13:24:41Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="logIn()[pri:2, instance:com.learnTestNG.Amazon@1fb19a0]" started-at="2022-11-23T13:24:41Z" name="logIn" finished-at="2022-11-23T13:24:41Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+      </class> <!-- com.learnTestNG.Amazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

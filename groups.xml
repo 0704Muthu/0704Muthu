@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="firstpriority"></include>
+<include name="secondpriority"></include>
+<exclude name="firstpriority"></exclude>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.learnTestNG.Amazon"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

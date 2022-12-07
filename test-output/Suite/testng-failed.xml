@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="password" value="Mtuh$123"/>
+  <parameter name="emailId" value="rmuhtukumar@7498"/>
+  <test thread-count="5" parallel="tests" name="Test(failed)" verbose="2">
+    <classes>
+      <class name="com.LearnSequentialExecution.TestNg.LaunchBrowser">
+        <methods>
+          <include name="chromeBrowserLaunch2" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.LearnSequentialExecution.TestNg.LaunchBrowser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
